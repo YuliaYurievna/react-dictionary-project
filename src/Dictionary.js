@@ -24,10 +24,14 @@ export default function Dictionary() {
   
   return (
     <div className='Dictionary'>
-      <form onSubmit={search}>
-        <input type='search' onChange={handleKeywordChange} />
-        <button type='submit'>submit</button>
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <label>What word do you want to look up?</label>
+          <input type='search' placeholder='Search for a word' className='form-contol search-input' onChange={handleKeywordChange} />
+        </form>
+        <small className='hint'>i.e. paris, wine, yoga, coding</small>
+      </section>
+      
       <Results results={results} />
     </div>
   ); 
