@@ -1,6 +1,10 @@
 .Dictionary {
-  max-width: 960px;
+  max-width: 40%;
   margin: 0 auto;
+}
+
+.Dictionary p {
+  margin: 0;
 }
 
 .Dictionary section {
@@ -35,4 +39,8 @@
 .Dictionary .hint {
   margin-top: 15px;
   display: block;
+}
+
+.Dictionary .example {
+  margin-top: 10px;
 }
