@@ -7,7 +7,7 @@ export default function App() {
        <div className='container'>
         <header className="App-header">
           <h1>
-            Dictionary
+            Dictionary 📜
           </h1>
         </header>
        </div>
