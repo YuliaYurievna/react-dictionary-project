@@ -9,10 +9,15 @@ a {
   margin: 5px 0 0;
 }
 
+.App {
+  padding: 60px 0 100px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 .App header {
   color: #8252fd;
-  padding: 60px 0 20px;
-  max-width: 960px;
+  padding: 0 0 20px;
   margin: 0 auto;
 }
 
